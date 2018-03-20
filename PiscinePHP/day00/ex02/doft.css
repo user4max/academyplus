@@ -1,0 +1,213 @@
+div {
+	position:relative;
+}
+
+body {
+    min-width: 1000px;
+    background-color: #424242;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+nav {
+	position:relative;
+	display: inline-block;
+}
+
+.center {
+	
+}
+
+.top {
+	background-color: #909090;
+	box-shadow: 7px 7px 0px black;
+	border-radius: 10px;
+	width: 95%;
+	margin: 20px auto;
+	display: left;
+}
+
+.day42 {
+	border-radius: 10px; width:35%; height:40%;
+	padding: 7px;
+}
+
+.loupe {
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	bottom:-14%;
+	right:3%;
+}
+
+.reload {
+	width: 2%;
+	height: 17%;
+	position: absolute;
+	bottom:75%;
+	right: 1%;
+}
+
+.close {
+	width:2%;
+	height:15%;
+	position:absolute;
+	bottom: 5%;
+	right: 1%;
+
+}
+
+.leftmenu {
+	z-index: 1;
+    width: 10%;
+	height: 10%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px 10px 10px;
+    background-color: grey;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.arrow {
+	position: relative;
+	width: 55%;
+	height: 18%;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.main {
+	position: relative;
+	width: 55%;
+	height: 18%;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.oeil {
+	position: relative;
+	width: 55%;
+	height: 18%;
+	margin-left: 20%;
+    margin-right: 20%;
+	border: 5px solid red;
+}
+
+.outil {
+	position: relative;
+	width: 55%;
+	height: 16%;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.chat-icon {
+	position: relative;
+	width: 50%;
+	height: 17%;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.middle {
+    z-index: 1;
+    border-radius: 10px 10px 10px ;
+    background-color: grey;
+    padding: 10px;
+    margin-left: 17%;
+    margin-right: 17%;
+    box-shadow: 10px 10px 10px black;
+}
+
+.cluster {
+	width: 100%;
+}
+
+.rightmenu {
+	z-index: 1;
+	border-radius: 10px 10px 10px;
+    width: 10%;
+	height: 10%;
+    margin-right: 5%;
+    float: right;
+    box-shadow: 10px 10px 10px black;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 11.5%;
+}
+
+.book {
+	position: relative;
+	width: 55%;
+	height: 18%;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.towel {
+	position: relative;
+	width: 55%;
+	height: 16%;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.brick {
+	background-image: url('resources/brick.jpg');
+	position: relative;
+	width: 92%;
+	height: 70px;
+	margin-left: 4%;
+    margin-right: 2%;
+}
+
+.caseta {
+	z-index: 2;
+	float: left;
+	width: 30%;
+	height: 150px;
+	position: absolute;
+	top: 70%;
+	left: 9%;
+	padding-left: 10px;
+	background-color: #88FF89;
+	font-family: Times;	
+}
+
+.caseta p{
+	font-size: 21px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.bold {
+	font-size: 37px;
+}
+
+.sub {
+	text-shadow: 7px 7px 5px rgba(255, 77, 49, 1);
+}
+
+.italic {
+	font-style: italic;
+	font-size: 20px !important;
+}
+
+.txt {
+	width: 65%;
+}
+
+.subb {
+	font-size: 13px;
+	height: 19px;
+	letter-spacing: 1.6px
+	font-family: Times;
+}
+
+.dialog {
+	border-radius: 10px;
+	box-shadow: 8px 11px 8px 0 #000;
+}
